@@ -1,0 +1,70 @@
+.main {
+  margin: 0 auto;
+}
+
+.footer {
+  height: 2%;
+  width: 100%;
+  padding: 1%;
+  margin-bottom: 1%;
+  align-items: center;
+  display: flexbox;
+}
+
+.footer a:hover {
+  border-style: double;
+}
+
+.menubtn {
+  background-color: #020413;
+  color: #fdedf2;
+  border: double;
+  position: relative;
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  margin: 1%;
+}
+
+.menubtn:hover,
+.menubtn:active {
+  background-color: #fdedf2;
+  color: #020413;
+}
+
+.icon {
+  position: relative;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin: 1%;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+@supports (display: flex) {
+  @media screen and (min-width: 280px) {
+    .main {
+      font-size: small;
+    }
+    .footer {
+      font-size: xx-small;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    .main {
+      font-size: medium;
+    }
+    .footer {
+      font-size: smaller;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .main {
+      font-size: large;
+    }
+    .footer {
+      font-size: small;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.container {
+    margin-top: 0;
+    margin-bottom: 1.25%;   
+    max-width: 100%;
+    padding: 0.5% 1%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);    
+    opacity: 90%;
+    background-color: #FDEDF2;
+    color: #020413;  
+    border-style: double;  
+}
+
+@supports (display: flex) {
+    @media screen and (min-width: 280px) {
+        .container {       
+            font-size: small;                 
+            min-height: 20rem;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+    @media screen and (min-width: 640px) {
+        .container {
+            font-size: medium;
+            min-height: 30rem;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        .container {
+            font-size: large;
+            min-height: 30rem;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+    }
+}

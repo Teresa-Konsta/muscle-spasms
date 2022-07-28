@@ -1,0 +1,87 @@
+.headline {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+
+.imgWorld,
+.imgApathy,
+.imgNeck,
+.imgYacht,
+.imgAkira {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: double;
+  width: fit-content;
+}
+
+.imgWorld,
+.imgNeck,
+.imgYacht {  
+  margin-left: 17%;
+  margin-right: 17%;  
+}
+
+.imgApathy,
+.imgAkira {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.everything {
+  animation: container-appear 0.3s ease-in-out;
+  padding: 3%;
+}
+
+.everything section {
+  text-align: justify;
+}
+
+.everything a {
+  font-weight: bolder;
+  text-decoration: underline wavy;
+}
+
+.everything a:hover {
+  font-style: oblique;
+  text-transform: capitalize;
+  background-color: #f3c4fb;
+  border-radius: 10%;
+}
+
+.everything li {
+  list-style-type: square;
+}
+ 
+@keyframes container-appear {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+@supports (display: flex) {
+  @media screen and (min-width: 320px) {
+    .headline {
+      font-size: small;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    .headline {
+      font-size: medium;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .headline {
+      font-size: large;
+    }
+  }
+}

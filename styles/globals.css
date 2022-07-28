@@ -1,0 +1,53 @@
+/*UPDATED*/
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Calibri';
+  background-color: #020413;
+  color: #f8f4f2;
+}
+
+html::-webkit-scrollbar {
+  width: 10px !important;
+
+  background-color: #020413;
+  border-radius: 3px;
+}
+
+#WhatAreDivList ul {
+  float: left;
+}
+
+#WhatAreDivList #WhatAreAd {
+  float: right;
+}
+
+html::-webkit-scrollbar-button {
+  background-color: #020413;
+  border-radius: 2px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #f8f4f2;
+  border-radius: 5px;
+}
+
+a,
+button {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background: #cbb2fe;
+}
+
+::selection {
+  background: #cbb2fe;
+}

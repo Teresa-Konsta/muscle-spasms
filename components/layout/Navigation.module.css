@@ -1,0 +1,308 @@
+.menuEN,
+.menuRU {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: #370617;
+  width: 100%;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 3px 2px -2px #20040e;
+}
+
+.menuEN ul,
+.menuRU ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menuEN li,
+.menuRU li {
+  border-left: inset;
+}
+
+.menuEN a,
+.menuRU a {
+  justify-content: center;
+}
+
+.activeLink,
+.menuEN a:hover,
+.menuRU a:hover {
+  background-color: #fdedf2;
+  color: #020413;
+  border: double;
+}
+
+@supports (display: flex) {
+  @media screen and (min-width: 280px) {
+    .menuEN ul,
+    .menuRU ul {
+      margin-right: 30%;
+    }
+    .menuEN li,
+    .menuRU li,
+    .menuEN a,
+    .menuRU a {
+      margin-top: 0.1%;
+      padding: 0.1rem;
+      font-size: small;
+    }
+    .menuEN li,
+    .menuRU li {
+      display: flex;
+    }
+    .lastli {
+      border-right: none;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    .menuEN ul {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .menuRU ul {
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+    .menuEN li,
+    .menuRU li,
+    .menuEN a,
+    .menuRU a {
+      margin-top: 1%;
+      padding: 0.1rem;
+      line-height: 1.5rem;
+    }
+    .menuEN li,
+    .menuRU li {
+      display: inline;
+    }
+    .lastli {
+      border-right: outset;
+    }
+  }
+  @media screen and (min-width: 540px) {
+    .menuEN ul {
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+    .menuRU ul {
+      margin-left: 6.5%;
+      margin-right: 6.5%;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .menuEN ul {
+      margin-left: 10.5%;
+      margin-right: 10.5%;
+    }
+    .menuRU ul {
+      margin-left: 11%;
+      margin-right: 11%;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    .menuEN ul {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .menuRU ul {
+      margin-left: 5.5%;
+      margin-right: 5.5%;
+    }
+    .menuEN li,
+    .menuRU li,
+    .menuEN a,
+    .menuRU a {
+      font-size: medium;
+      line-height: 2rem;
+    }
+  }
+  @media screen and (min-width: 667px) {
+    .menuEN ul {
+      margin-left: 6.5%;
+      margin-right: 6.5%;
+    }
+    .menuRU ul {
+      margin-left: 7.5%;
+      margin-right: 7.5%;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    .menuEN ul {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .menuRU ul {
+      margin-left: 10.5%;
+      margin-right: 10.5%;
+    }
+  }
+  @media screen and (min-width: 736px) {
+    .menuEN ul {
+      margin-left: 11%;
+      margin-right: 11%;
+    }
+    .menuRU ul {
+      margin-left: 11.5%;
+      margin-right: 11.5%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .menuEN ul {
+      margin-left: 12.5%;
+      margin-right: 12.5%;
+    }
+    .menuRU ul {
+      margin-left: 13%;
+      margin-right: 13%;
+    }
+  }
+  @media screen and (min-width: 780px) {
+    .menuEN ul {
+      margin-left: 13%;
+      margin-right: 13%;
+    }
+    .menuRU ul {
+      margin-left: 13.5%;
+      margin-right: 13.5%;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .menuEN ul {
+      margin-left: 14%;
+      margin-right: 14%;
+    }
+    .menuRU ul {
+      margin-left: 14.5%;
+      margin-right: 14.5%;
+    }
+  }
+  @media screen and (min-width: 810px) {
+    .menuEN ul {
+      margin-left: 14%;
+      margin-right: 14%;
+    }
+    .menuRU ul {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  }
+  @media screen and (min-width: 816px) {
+    .menuEN ul,
+    .menuRU ul {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  }
+  @media screen and (min-width: 844px) {
+    .menuEN ul {
+      margin-left: 13%;
+      margin-right: 13%;
+    }
+    .menuRU ul {
+      margin-left: 14%;
+      margin-right: 14%;
+    }
+    .menuEN li,
+    .menuRU li,
+    .menuEN a,
+    .menuRU a {
+      margin-top: 1%;
+      padding: 0.25rem;
+    }
+  }
+  @media screen and (min-width: 864px) {
+    .menuEN ul {
+      margin-left: 14%;
+      margin-right: 14%;
+    }
+    .menuRU ul {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    .menuEN ul {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    .menuRU ul {
+      margin-left: 16%;
+      margin-right: 16%;
+    }
+  }
+  @media screen and (min-width: 915px) {
+    .menuEN ul {
+      margin-left: 16%;
+      margin-right: 16%;
+    }
+    .menuRU ul {
+      margin-left: 16.5%;
+      margin-right: 16.5%;
+    }
+  }
+  @media screen and (min-width: 926px) {
+    .menuEN ul {
+      margin-left: 16%;
+      margin-right: 16%;
+    }
+    .menuRU ul {
+      margin-left: 17%;
+      margin-right: 17%;
+    }
+  }
+  @media screen and (min-width: 962px) {
+    .menuEN ul {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    .menuRU ul {
+      margin-left: 13%;
+      margin-right: 13%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .menuEN ul {
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+    .menuRU ul {
+      margin-left: 15.5%;
+      margin-right: 15.5%;
+    }
+    .menuEN li,
+    .menuRU li,
+    .menuEN a,
+    .menuRU a {
+      line-height: 2.3rem;
+    }
+  }
+  @media screen and (min-width: 1050px) {
+    .menuRU ul {
+      margin-left: 16.25%;
+      margin-right: 16.25%;
+    }
+  }
+  @media screen and (min-width: 1080px) {
+    .menuRU ul {
+      margin-left: 17.25%;
+      margin-right: 17.25%;
+    }
+  }
+  @media screen and (min-width: 1152px) {
+    .menuRU ul {
+      margin-left: 19.25%;
+      margin-right: 19.25%;
+    }
+  }
+  @media screen and (min-width: 1245px) {
+    .menuRU ul {
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+  }
+}
