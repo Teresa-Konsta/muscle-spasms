@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import English from '../../posts/en/skeleton';
 import Ukrainian from '../../posts/ua/skeleton';
-import { GiWorld } from 'react-icons/gi';
+import { SiInstagram } from 'react-icons/si';
 import styles from './Header.module.css';
 
 const Header = () => {
@@ -10,12 +10,16 @@ const Header = () => {
     const {locale} = router;
     const t = locale === 'en' ? English : Ukrainian;
 
-    const setENHandler = (event) => {
+    const instaHandler = () => {
+        router.push('https://instagram.com/chronicmusclepain?igshid=ZDdkNTZiNTM=');
+    };
+
+    const setENHandler = () => {
         const locale = 'en';
         router.push('/', '/', {locale});
     };
 
-    const setUAHandler = (event) => {
+    const setUAHandler = () => {
         const locale = 'ua';
         router.push('/', '/', {locale});
     };
@@ -30,8 +34,8 @@ const Header = () => {
                 </h2>
             </div>
             <div className={styles.btns}>
-                <h2 onClick={setENHandler}>
-                    <GiWorld className={styles.icon}/>
+                <h2 onClick={instaHandler}>
+                    <SiInstagram className={styles.icon}/>
                 </h2>
                 <button className={styles.singlebtn} onClick={setENHandler}>
                     <h2>&nbsp;EN</h2>

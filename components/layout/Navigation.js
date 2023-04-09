@@ -20,7 +20,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className={`${locale === 'en' ? styles.menuEN : styles.menuRU}`}>
+    <nav className={`${locale === 'en' ? styles.menuEN : styles.menuUA}`}>
       <ul>
         {navMenu.map((item, index) => {
           return (
