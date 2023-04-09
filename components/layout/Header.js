@@ -1,22 +1,22 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import English from '../../posts/en/skeleton';
-import Russian from '../../posts/ru/skeleton';
-import {GiWorld} from 'react-icons/gi';
+import Ukrainian from '../../posts/ua/skeleton';
+import { GiWorld } from 'react-icons/gi';
 import styles from './Header.module.css';
 
-const Header = (props) => {
+const Header = () => {
     const router = useRouter();
     const {locale} = router;
-    const t = locale === 'en' ? English : Russian;
+    const t = locale === 'en' ? English : Ukrainian;
 
     const setENHandler = (event) => {
         const locale = 'en';
         router.push('/', '/', {locale});
     };
 
-    const setRUHandler = (event) => {
-        const locale = 'ru';
+    const setUAHandler = (event) => {
+        const locale = 'ua';
         router.push('/', '/', {locale});
     };
 
@@ -36,8 +36,8 @@ const Header = (props) => {
                 <button className={styles.singlebtn} onClick={setENHandler}>
                     <h2>&nbsp;EN</h2>
                 </button>
-                <button className={styles.singlebtn} onClick={setRUHandler}>
-                    <h2>&nbsp;RU</h2>
+                <button className={styles.singlebtn} onClick={setUAHandler}>
+                    <h2>&nbsp;UA</h2>
                 </button>
             </div>                                     
         </header>

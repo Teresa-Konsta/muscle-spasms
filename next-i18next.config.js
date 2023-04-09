@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = new NextI18Next({
     i18n: {
       defaultLocale: 'en',
-      locales: ['en', 'ru'],
+      locales: ['en', 'ua'],
       localePath: path.resolve('./public/locales')
     },
   });

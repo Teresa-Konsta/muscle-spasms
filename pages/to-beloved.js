@@ -4,14 +4,14 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 import English from '../posts/en/to-beloved';
-import Russian from '../posts/ru/to-beloved';
+import Ukrainian from '../posts/ua/to-beloved';
 import PageContainer from '../components/UI/PageContainer';
 import styles from '../styles/General.module.css';
 
 export default function ToBeloved() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? English : Russian;
+  const t = locale === 'en' ? English : Ukrainian;
 
   return (
     <Fragment>

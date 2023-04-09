@@ -4,14 +4,14 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 import English from '../posts/en/psychological-help';
-import Russian from '../posts/ru/psychological-help';
+import Ukrainian from '../posts/ua/psychological-help';
 import PageContainer from '../components/UI/PageContainer';
 import styles from '../styles/General.module.css';
 
 export default function PsychologicalHelp() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? English : Russian;
+  const t = locale === 'en' ? English : Ukrainian;
 
   return (
     <Fragment>

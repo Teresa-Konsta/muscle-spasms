@@ -2,14 +2,14 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import { useRouter } from 'next/router';
 import English from '../posts/en/what-to-do';
-import Russian from '../posts/ru/what-to-do';
+import Ukrainian from '../posts/ua/what-to-do';
 import PageContainer from '../components/UI/PageContainer';
 import styles from '../styles/General.module.css';
 
 export default function ToDo() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? English : Russian;
+  const t = locale === 'en' ? English : Ukrainian;
 
   return (
     <Fragment>

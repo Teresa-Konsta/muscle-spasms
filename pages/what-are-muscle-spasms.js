@@ -2,14 +2,14 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import { useRouter } from 'next/router';
 import English from '../posts/en/what-are-spasms';
-import Russian from '../posts/ru/what-are-spasms';
+import Ukrainian from '../posts/ua/what-are-spasms';
 import PageContainer from '../components/UI/PageContainer';
 import styles from '../styles/General.module.css';
 
 export default function MuscleSpasms(props) {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? English : Russian;
+  const t = locale === 'en' ? English : Ukrainian;
 
   return (
     <Fragment>

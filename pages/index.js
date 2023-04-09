@@ -2,14 +2,14 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import { useRouter } from 'next/router';
 import English from '../posts/en/home';
-import Russian from '../posts/ru/home';
+import Ukrainian from '../posts/ua/home';
 import PageContainer from '../components/UI/PageContainer';
 import styles from '../styles/General.module.css';
 
 export default function Home() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? English : Russian;
+  const t = locale === 'en' ? English : Ukrainian;
 
   return (
     <Fragment>

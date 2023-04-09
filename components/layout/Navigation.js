@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import English from '../../posts/en/skeleton';
-import Russian from '../../posts/ru/skeleton';
+import Ukrainian from '../../posts/ua/skeleton';
 import styles from './Navigation.module.css';
 
 const Navigation = () => {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? English : Russian;
+  const t = locale === 'en' ? English : Ukrainian;
 
   const navMenu = [
     { title: t.menuitem1, path: '/' },

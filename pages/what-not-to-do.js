@@ -4,14 +4,14 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 import English from '../posts/en/what-not-to-do';
-import Russian from '../posts/ru/what-not-to-do';
+import Ukrainian from '../posts/ua/what-not-to-do';
 import PageContainer from '../components/UI/PageContainer';
 import styles from '../styles/General.module.css';
 
 export default function NotToDo() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? English : Russian;
+  const t = locale === 'en' ? English : Ukrainian;
 
   return (
     <Fragment>
