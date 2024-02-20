@@ -13,7 +13,7 @@ const English = {
   based: 'based on',
   some: 'some',
   meds: 'Medications:',
-  medP: 'I do recommend consulting with your physician before taking any medication as what works for one person might be not suitable for another and some drugs should be taken only under the doctor&apos;s supervision. Also, some medications could not be used all the time, but only temporarily for calming down increased pain. Not all medications could be combined and combine carefully herbal supplements and drugs (better ask your pharmacist what and how could be combined). Please, keep in mind that all medications negatively impact the heart, liver, kidneys and stomach. Some have such side effects as drowsiness and dizziness (for example, amitriptyline, cyclobenzaprine, opioids).',
+  medP: "I do recommend consulting with your physician before taking any medication as what works for one person might be not suitable for another and some drugs should be taken only under the doctor's supervision. Also, some medications could not be used all the time, but only temporarily for calming down increased pain. Not all medications could be combined and combine carefully herbal supplements and drugs (better ask your pharmacist what and how could be combined). Please, keep in mind that all medications negatively impact the heart, liver, kidneys and stomach. Some have such side effects as drowsiness and dizziness (for example, amitriptyline, cyclobenzaprine, opioids).",
   nsaids: 'nonsteroidal anti-inflammatory drugs (NSAIDs)',
   ibuprofen:
     'ibuprofen-like group (ibuprofen, ketoprofen, naproxen, nimesulide, etc.), paracetamol/acetaminophen (also available in a combination with caffeine), dexketoprofen, aspirin, analgin',
