@@ -56,6 +56,7 @@ export default function MuscleSpasms(props) {
               <li>{t.listitem6}</li>
               <li>{t.listitem7}</li>
             </ul>
+            <p>{t.hypothesis}</p>
           </section>
         </div>
       </PageContainer>

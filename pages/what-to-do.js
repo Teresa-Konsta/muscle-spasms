@@ -28,6 +28,9 @@ export default function ToDo() {
             <p>N.B.&nbsp;{t.medP}</p>
             <ul>
               <li>
+                <b>{t.cannabis}</b>&#46;&nbsp;{t.cannabisdesc}&nbsp;{t.cannabiswarniing}
+              </li>
+              <li>
                 <b>
                   <i>{t.nsaids}</i>
                 </b>

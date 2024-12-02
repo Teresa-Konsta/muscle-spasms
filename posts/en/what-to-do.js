@@ -14,6 +14,9 @@ const English = {
   some: 'some',
   meds: 'Medications:',
   medP: "I do recommend consulting with your physician before taking any medication as what works for one person might be not suitable for another and some drugs should be taken only under the doctor's supervision. Also, some medications could not be used all the time, but only temporarily for calming down increased pain. Not all medications could be combined and combine carefully herbal supplements and drugs (better ask your pharmacist what and how could be combined). Please, keep in mind that all medications negatively impact the heart, liver, kidneys and stomach. Some have such side effects as drowsiness and dizziness (for example, amitriptyline, cyclobenzaprine, opioids).",
+  cannabis: 'cannabis-derived drugs',
+  cannabisdesc: "Based on my personal experience, I would suggest going with a pure cannabis strain in case of a hard problem. I take Equiposa, 1:1 THC:CBD oil twice a day and CBD-dominant oil of Vespera strain before bedtime. Equiposa reduces the level of chronic tiredness and Vespera helps to fall asleep. In case of mental problems, a THC-dominant cannabis strain would be preferred. Regarding CBG and CBN, these are good if the pain is moderate to bad, I take CBG (and it helps to recover stomach as well) twice a day and CBN before going to sleep due to the same reasons. Lotion can be used topically in case of bad local pain as an addition.",
+  cannabiswarniing: "Warning: cannabis raises blood pressure a bit and THC increases appetite.",
   nsaids: 'nonsteroidal anti-inflammatory drugs (NSAIDs)',
   ibuprofen:
     'ibuprofen-like group (ibuprofen, ketoprofen, naproxen, nimesulide, etc.), paracetamol/acetaminophen (also available in a combination with caffeine), dexketoprofen, aspirin, analgin',

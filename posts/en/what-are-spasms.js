@@ -14,6 +14,7 @@ const English = {
   listitem5: 'infection;',
   listitem6: 'mental health;',
   listitem7: 'weak health.',
+  hypothesis: "I have a hypothesis that the bodies of people with chronic myalgia don't produce enough non-essential amino acids, namely Glutamine and Carnosine (as in the case of diabetes and insulin) which are necessary for healthy body functioning. Our brain is the most energy-consuming organ, hence it gets what it needs and muscle can lack some protein. Also, amino acids play a part in the creation of important substances such as SAMe, 5-HTP, and GABA."
 };
 
 export default English;
